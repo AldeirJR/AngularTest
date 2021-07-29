@@ -6,7 +6,7 @@ import { SearchCharacterFormComponent } from './search-character-form/search-cha
 const routes: Routes = [
   {
     path: '', redirectTo: '/characters', pathMatch: 'full'
-  },
+    },
   {
     path: 'characters', component: CharactersComponent
   },
